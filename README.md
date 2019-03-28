@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://devpost.com/software/simpleshop"><img src="https://github.com/VietDinh17/SimpleShop/blob/master/client/public/Pics/logo.png" alt="simpleShop" width="200"></a>
+  <a href="https://devpost.com/software/simpleshop"><img src="https://github.com/VietDinh17/simpleShop/blob/master/client/public/Pics/logo.PNG" alt="simpleShop" width="200"></a>
   <br>
     SimpleShop  
   <br>
@@ -15,7 +15,7 @@
   <a href="#license">License</a>
 </p>
 
-![alt text](https://github.com/VietDinh17/transit-app/blob/master/client/public/Pics/main-page.PNG)
+![alt text](https://github.com/VietDinh17/simpleShop/blob/master/client/public/Pics/main-page.PNG)
 
 
 ## Key Features
@@ -62,7 +62,7 @@ $ npm install or yarn install
 # Run the app
 $ npm start or yarn start
 ```
-In case the website doesn't auto pop up, go to http://localhost:3000/. 
+In case the website doesn't automatically pop up, go to http://localhost:3000/. 
 
 ## Credits
 
