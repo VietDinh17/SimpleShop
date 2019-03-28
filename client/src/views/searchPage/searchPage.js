@@ -3,7 +3,7 @@ import ItemCard from './ItemCard';
 import Grid from '@material-ui/core/Grid';
 import { getSearch, setCart, getCart } from "../../utils/SetGetDatabase";
 import Strapi from "strapi-sdk-javascript/build/main";
-const apiUrl = process.env.API_URL || "https://2b743ae0.ngrok.io";
+const apiUrl = process.env.API_URL || "http://localhost:1337";
 const strapi = new Strapi(apiUrl);
 
 

@@ -5,7 +5,7 @@ import MediaCardTest from './MediaCardTest';
 import Grid from '@material-ui/core/Grid';
 
 import { calculatePrice, setCart, getCart } from "../../utils/SetGetDatabase";
-const apiUrl = process.env.API_URL || "https://2b743ae0.ngrok.io";
+const apiUrl = process.env.API_URL || "http://localhost:1337";
 const strapi = new Strapi(apiUrl);
 
 

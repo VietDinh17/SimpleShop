@@ -4,7 +4,7 @@ import MediaCard from './MediaCard';
 import Typography from "@material-ui/core/Typography";
 import { Link } from 'react-router-dom';
 import Strapi from "strapi-sdk-javascript/build/main";
-const apiUrl = process.env.API_URL || "https://2b743ae0.ngrok.io";
+const apiUrl = process.env.API_URL || "http://localhost:1337";
 const strapi = new Strapi(apiUrl);
 
 
