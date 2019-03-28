@@ -1,0 +1,33 @@
+.root{
+    padding-top: 4%;
+}
+.itemBox {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 1%
+}
+#container-fosc {
+    overflow: hidden;
+    width: 50%;
+    margin: 0 auto
+}
+.bottom {
+    padding-top: 1%;
+    height: 200px
+}
+
+#inner {
+    overflow: hidden;
+    width: 2000px;
+}
+
+.child {
+    float: left;
+    width: 150px;
+    height: 50px;
+}
+
+.child1 {
+    float: left;
+    padding-left: 400px;
+}

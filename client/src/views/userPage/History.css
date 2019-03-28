@@ -1,0 +1,36 @@
+.root{
+    padding-top: 4%;
+}
+.itemBox {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 1%
+}
+#container {
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    outline: solid;
+    outline-width: thin;
+}
+.bottom {
+    padding-top: 1%;
+    height: 200px
+}
+
+#inner {
+    overflow: hidden;
+    width: 2000px;
+}
+
+.child {
+    float: left;
+    width: 150px;
+    height: 50px;
+}
+
+.child1 {
+    float: left;
+    padding-left: 400px;
+}

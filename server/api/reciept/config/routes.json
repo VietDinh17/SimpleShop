@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/reciepts",
+      "handler": "Reciept.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reciepts/count",
+      "handler": "Reciept.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reciepts/:_id",
+      "handler": "Reciept.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/reciepts",
+      "handler": "Reciept.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/reciepts/:_id",
+      "handler": "Reciept.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/reciepts/:_id",
+      "handler": "Reciept.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

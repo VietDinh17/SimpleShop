@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "department",
+  "info": {
+    "name": "department",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "picture": {
+      "type": "string"
+    },
+    "items": {
+      "collection": "item",
+      "via": "dep"
+    },
+    "categories":{
+      "collection": "category",
+      "via": "department"
+    }
+  }
+}

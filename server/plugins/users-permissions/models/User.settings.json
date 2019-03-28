@@ -1,0 +1,68 @@
+{
+  "connection": "default",
+  "info": {
+    "name": "user",
+    "description": "This prepresent User Model",
+    "mainField": "username"
+  },
+  "attributes": {
+    "username": {
+      "type": "string",
+      "minLength": 3,
+      "unique": true,
+      "configurable": false,
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "minLength": 6,
+      "configurable": false,
+      "required": true
+    },
+    "password": {
+      "type": "password",
+      "minLength": 6,
+      "configurable": false,
+      "private": true
+    },
+    "confirmed": {
+      "type": "boolean",
+      "default": false,
+      "configurable": false
+    },
+    "blocked": {
+      "type": "boolean",
+      "default": false,
+      "configurable": false
+    },
+    "role": {
+      "model": "role",
+      "via": "users",
+      "plugin": "users-permissions",
+      "configurable": false
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "address": {
+      "type": "json"
+    },
+    "dateOfBirth": {
+      "type": "date"
+    },
+    "cart": {
+      "model": "cart",
+      "via": "user"
+    },
+    "reciepts": {
+        "collection": "reciept",
+        "via": "buyer"
+    }
+  },
+  "autoCreatedAt": true,
+  "autoUpdatedAt": true,
+  "collectionName": "users-permissions_user"
+}

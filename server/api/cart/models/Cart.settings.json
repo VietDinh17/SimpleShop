@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "cart",
+  "info": {
+    "name": "cart",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+     "totalprice": {
+      "type": "string"
+    },
+    "checkedout": {
+      "type": "boolean"
+    },
+    "user": {
+      "model": "user",
+      "via": "cart",
+      "plugin": "users-permissions"
+    }
+  },
+  "autoPK": true,
+  "autoCreatedAt": true,
+  "autoUpdatedAt": true
+}
